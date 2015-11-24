@@ -1,0 +1,23 @@
+{
+  "name": "protractor-demo",
+  "version": "0.0.1",
+  "description": "Login form example with validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config.js",
+    "postinstall" : "webdriver update"
+  },
+  "bin": {
+    "webdriver":"./bin/webdriver-manager",
+    "protractor":"./bin/protractor"
+  },
+  "keywords": [
+    "AngularJs-Testing Testing Angular AngularJs E2E-Testing Protractor"
+  ],
+  "author": "Sarjan Desai",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "protractor": "^3.0.0"
+  }
+}
