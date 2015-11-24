@@ -4,12 +4,8 @@
   "description": "Login form example with validation",
   "main": "index.js",
   "scripts": {
-    "test": "protractor config.js",
-    "postinstall" : "webdriver update"
-  },
-  "bin": {
-    "webdriver":"./bin/webdriver-manager",
-    "protractor":"./bin/protractor"
+    "postinstall" : "./node_modules/protractor/bin/webdriver-manager update",
+    "test": "./node_modules/protractor/bin/protractor config.js"
   },
   "keywords": [
     "AngularJs-Testing Testing Angular AngularJs E2E-Testing Protractor"
